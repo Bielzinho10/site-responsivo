@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Cruzeiro Esporte Clube</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra de Navegação -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/Cruzeiro_Esporte_Clube_(logo).svg.png" alt="Logo Cruzeiro" width="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Notícias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="elenco.html">Elenco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Seção de Contato -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Fale Conosco</h2>
+      <p class="text-center mb-4">Se você tiver alguma dúvida, sugestão ou quiser entrar em contato com o Cruzeiro Esporte Clube, preencha o formulário abaixo e responderemos o mais breve possível.</p>
+
+      <form action="enviar_contato.php" method="POST">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="nome" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="nome" name="nome" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 Cruzeiro Esporte Clube | Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5
