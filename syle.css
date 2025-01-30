@@ -67,8 +67,8 @@ nav .navbar-brand img {
 
 /* Seções principais */
 #home {
-  background-color: #092eff; /* Azul escuro */
-  color: #fff; /* Texto branco */
+  background-color: #137ee9; /* Azul escuro */
+  color: #ffffff; /* Texto branco */
   text-align: center;
   padding: 50px 20px;
 }
@@ -93,7 +93,7 @@ nav .navbar-brand img {
 }
 
 #home .btn:hover {
-  background-color: #003366; /* Azul escuro para hover */
+  background-color: #1684f1; /* Azul escuro para hover */
 }
 
 /* Elenco Section */
@@ -105,12 +105,12 @@ nav .navbar-brand img {
 #elenco h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #003366; /* Azul escuro */
+  color: #117ae2; /* Azul escuro */
 }
 
 .card {
   border: none;
-  box-shadow: 0 4px 8px rgba(0, 4, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(9, 9, 212, 0.1); /* Alterando a sombra para azul */
   transition: transform 0.3s ease;
 }
 
@@ -131,12 +131,12 @@ nav .navbar-brand img {
 .card-title {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #003366; /* Azul escuro */
+  color: #2f79c4; /* Azul escuro */
 }
 
 .card-text {
   font-size: 1rem;
-  color: #555; /* Cinza claro */
+  color: #0e74db; /* Azul escuro */
 }
 
 .text-center .btn {
@@ -144,7 +144,7 @@ nav .navbar-brand img {
 }
 
 .text-center .btn-primary {
-  background-color: #003366; /* Azul escuro */
+  background-color: #046cd4; /* Azul escuro */
   color: #fff; /* Texto branco */
   padding: 12px 20px;
   border-radius: 5px;
@@ -158,7 +158,7 @@ nav .navbar-brand img {
 
 /* Rodapé */
 footer {
-  background-color: #003366; /* Azul escuro */
+  background-color: #1086fc; /* Azul escuro */
   color: #fff; /* Texto branco */
   padding: 20px;
   text-align: center;
