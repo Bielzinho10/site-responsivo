@@ -214,3 +214,12 @@ footer p {
     font-size: 0.9rem;
   }
 }
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
