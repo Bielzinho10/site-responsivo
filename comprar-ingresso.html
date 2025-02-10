@@ -150,6 +150,42 @@
       </form>
     </div>
   </section>
+  <section id="compra-ingresso" class="py-5">
+    <div class="container text-center">
+      <h2>Compra de Ingressos</h2>
+      <p>Escolha seu assento no estádio e finalize a compra.</p>
+      
+      <!-- Mapa de assentos interativo -->
+      <div id="assentos-interativos">
+        <h4>Selecione um assento:</h4>
+        
+        <!-- Aqui, você pode integrar o mapa de assentos em tempo real -->
+        <div class="assento" id="assento-1" onclick="selecionarAssento('1')">Assento 1</div>
+        <div class="assento" id="assento-2" onclick="selecionarAssento('2')">Assento 2</div>
+        <!-- Adicionar mais assentos -->
+  
+        <p id="status-assento">Nenhum assento selecionado.</p>
+      </div>
+  
+      <div id="compra">
+        <button id="comprar-assento" class="btn btn-primary" disabled>Comprar Ingresso</button>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    // Função para selecionar assento
+    function selecionarAssento(assento) {
+      document.getElementById("status-assento").textContent = "Assento " + assento + " selecionado.";
+      document.getElementById("comprar-assento").disabled = false;
+  
+      // Habilitar o botão de compra
+      document.getElementById("comprar-assento").onclick = function() {
+        alert("Compra do Assento " + assento + " concluída!");
+      };
+    }
+  </script>
+  
 
   <!-- Rodapé -->
   <footer class="bg-dark text-white text-center py-4">
