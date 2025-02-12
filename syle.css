@@ -250,4 +250,7 @@ footer p {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+}img {
+  width: 80%;  /* Ajusta o tamanho da imagem para 80% da largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
 }
