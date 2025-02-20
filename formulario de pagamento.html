@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pagamento</title>
+</head>
+<body>
+    <h1>Pagamento</h1>
+    <form action="processar_pagamento.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="cartao">Número do Cartão:</label>
+        <input type="text" id="cartao" name="cartao" required><br><br>
+
+        <label for="valor">Valor:</label>
+        <input type="text" id="valor" name="valor" required><br><br>
+
+        <input type="submit" value="Pagar">
+    </form>
+</body>
+</html>
